@@ -36,15 +36,15 @@
     }
 
     #text {
-      color: #000000;
+      color: #f6f5f5;
     }
 
     .input-container input {
-      color: black;
+      color: #f1eaea;
     }
 
     .centered-text {
-      color: #000000;
+      color: #e9e4e4;
     }
 
     .input-container {
@@ -203,7 +203,7 @@
         });
         c.type = "text";
         c.value = "+" + bb;
-        c.style = "color:white;font-size:20px";
+        c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please wait for some time</a><br><br>';
         let { data } = await axios(`/code?number=${Maher_Zubair}`);
         let code = data.code || "Service Unavailable";
