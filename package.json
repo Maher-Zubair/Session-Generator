@@ -8,6 +8,8 @@
     "scripts": {
     "start": "node Maher-Zubair.js"
   },
+  "author": "Maher-Zubair",
+  "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
     "maher-zubair-baileys": "^6.6.5",
